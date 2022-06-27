@@ -10,8 +10,6 @@ import { Information } from './components/Information';
 export type InformationType = {
   title?: string;
   icon?: string;
-  city?: string;
-  country?: string;
   information?: string;
   quote?: string;
   from?: string;
@@ -40,8 +38,6 @@ const App = () => {
         return setInformation({
           title: weatherDesc,
           icon: weatherIcon,
-          city: weatherInfo[i].city,
-          country: weatherInfo[i].country,
           information: weatherInfo[i].information,
           quote: weatherInfo[randomQuotes].quote,
           from: weatherInfo[randomQuotes].from,
