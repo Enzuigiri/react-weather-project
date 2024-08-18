@@ -1,6 +1,6 @@
 # React Weather Project
 
-A react project to check the current weather at your location with OpenWeather API
+A react project to check the current weather at your location with OpenWeather API TestChange
 
 <img src="web_preview.jpg" alt="Example web preview">
 
